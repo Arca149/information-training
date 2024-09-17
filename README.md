@@ -38,7 +38,10 @@ html タグ<>で挟んで記述する
 1. **拡張機能**タブを選択する。
 2. **検索欄**に**live server**と入力する。
 
-![alt text](https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default)
+<img src=https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default width = 50px>
+live server
+
+`![alt text](画像ファイル)`
 
 3. **インストール**を押す
 
