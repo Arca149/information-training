@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="index.html"/>
+        <title>実習</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <a href="/10_9-17/index.html">infomation training</a><br>
+        <a href="/9-24/TodoList.html">ToDoリスト</a><br>
 
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>Information Training</title>
-</head>
-<body>
-    <h1>infomation training</h1><hr>
-    <h2>githubとは?</h2><hr>
-    <strong>プログラムのバージョン管理アプリケーション</strong>
-    <p>プログラムを逐次覚えておいて、それをいつでも見直すことができる</p>
-    <h3>利点</h3>
-    <ul>
-        <li>バージョン管理ができる<br>プログラムをいつでも好きな時点に復元できる</li>
-        <li>共同編集が可能になる</li>
-    </ul>
-    
-    <br>
-    <h1>なんらかの文章</h1>
-    <h2>2</h2>
-    <h3>3</h3>
-    <h4>4</h4>
-    <p>P</p>
-</body>
+        <button onclick="increaseCount()">数字が増えるボタン</button>
+        <button onclick="decreaseCount()">数字が減るボタン</button>
+        <button onclick="resetCount()">リセット</button>
+        <p id="counter">0</p>
+    </body>
+    <script src="main.js"></script>
+</html>
